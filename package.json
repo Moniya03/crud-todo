@@ -1,0 +1,21 @@
+{
+  "name": "crud-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "dev": "nodemon -r dotenv/config src/index.js",
+  "format": "pnpm exec prettier . --write"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.1",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.5.3"
+  }
+}
